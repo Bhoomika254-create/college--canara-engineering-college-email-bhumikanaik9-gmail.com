@@ -1,0 +1,20 @@
+COLLEGE NAME- Canara engineering college
+email-bhumikanaik9@gmail.com
+
+
+
+def Last_word_length(s):
+    
+    words = s.split()
+
+   
+    if words:
+       
+        return len(words[-1])
+    else:
+        
+        return 0
+
+Sentence = "Hello World"
+word_length = Last_word_length(Sentence)
+print(word_length)
